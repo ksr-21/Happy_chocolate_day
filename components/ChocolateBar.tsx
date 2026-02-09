@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CHOCO_MESSAGES, TOTAL_PIECES } from '../constants';
-import { FloatingMessage } from '../types';
+import { CHOCO_MESSAGES, TOTAL_PIECES } from '../constants.ts';
+import { FloatingMessage } from '../types.ts';
 
 interface ChocolateBarProps {
   onComplete: () => void;

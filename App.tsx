@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import IntroCard from './components/IntroCard';
-import ChocolateBar from './components/ChocolateBar';
-import FinalScreen from './components/FinalScreen';
-import ShayariScreen from './components/ShayariScreen';
-import { AppState } from './types';
+import IntroCard from './components/IntroCard.tsx';
+import ChocolateBar from './components/ChocolateBar.tsx';
+import FinalScreen from './components/FinalScreen.tsx';
+import ShayariScreen from './components/ShayariScreen.tsx';
+import { AppState } from './types.ts';
 
 const App: React.FC = () => {
   const [view, setView] = useState<AppState>('intro');
